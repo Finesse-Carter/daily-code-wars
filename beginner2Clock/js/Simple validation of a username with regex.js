@@ -9,3 +9,10 @@ function validateUsr(username) {
     res = /^[a-z0-9_]{4,16}$/.test(username)
       return res
   }
+
+  function validateUsr(username) {
+    if (username.length < 4 || username.length > 16)
+      return false;
+      
+    return /^([a-z0-9_])+$/.test(username);
+  }
