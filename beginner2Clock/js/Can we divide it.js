@@ -11,3 +11,9 @@ A few cases:
 
 (4, 1, 4)     ->  true
 (15, -5, 3)   ->  true */
+
+const isDivideBy = (number, a, b) => {
+    return number % a === 0 && number % b === 0? true: false;
+    }
+  
+  
