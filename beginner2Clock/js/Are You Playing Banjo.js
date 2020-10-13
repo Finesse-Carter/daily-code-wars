@@ -6,3 +6,9 @@ The function takes a name as its only argument, and returns one of the following
 name + " plays banjo" 
 name + " does not play banjo"
 Names given are always valid strings. */
+
+const areYouPlayingBanjo = name => {
+    let letter = name.charAt(0);
+  let word = letter==='R'||letter==='r'? name + " plays banjo" : name + " does not play banjo";
+   return word
+ }
