@@ -9,3 +9,8 @@ input:
 "hello. my name is inigo montoya. you killed my father. prepare to die."
 
 output: */
+
+function fix(paragraph){
+    return paragraph.slice(0,1).toUpperCase()+paragraph.replace(/\. \w/g,v=>v.toUpperCase()).slice(1)
+  }
+  
