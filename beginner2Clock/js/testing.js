@@ -1,7 +1,5 @@
 function findShort(s){
-//   console.log(s);
     let a = s.split(' ');
-//     console.log(a);
     let b = a.sort(function(a, b){return a.length - b.length});
     console.log(b[0].length);
 
