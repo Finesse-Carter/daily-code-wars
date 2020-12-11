@@ -23,4 +23,4 @@ const multiTable = number => {
      var a = i < 10 ? table += `${i} * ${number} = ${i*number}\n` :  table += `${i} * ${number} = ${i*number}`;
     }
     return a
-  }
+  }     
