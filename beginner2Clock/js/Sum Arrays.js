@@ -20,4 +20,4 @@ We're testing basic loops and math operations. This is for beginners who are jus
 Advanced users may find this extremely easy and can easily write this in one line.
  */
 
- 
+const sum = numbers => numbers === [] ? 0 : numbers.reduce((sum, current) => sum + current, 0)
