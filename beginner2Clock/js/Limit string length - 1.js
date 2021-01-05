@@ -4,6 +4,5 @@
 
 // solution('Testing String', 3) --> 'Tes...'
 // solution('Testing String', 8) --> 'Testing ...'
-// solution('Test', 8)           --> 'Test'
-
+// solution('Test', 8)           --> 'Test' 
 const solution = (string, limit)=> string.length > limit ? string.slice(0, limit) + '...' : string;
