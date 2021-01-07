@@ -7,7 +7,7 @@ If the list is empty or contains a single element, return 0.
 The list(lst) is not sorted.
 
 maxDiff([1, 2, 3, 4]); // return 3, because 4 - 1 == 3
-maxDiff([1, 2, 3, -4]); // return 7, because 3 - (-4) == 7 //*/
+maxDiff([1, 2, 3, -4]); // return 7, because 3 - (-4) == 7 */
 
 const maxDiff = list => {
     var max =Math.max(...list);
