@@ -15,4 +15,4 @@ const solve = (stones) => {
       }
     }
     return counter;
-  }
+  }//
