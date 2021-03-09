@@ -2,3 +2,4 @@
 
 Note: Only valid inputs will be given. */
 
+const booleanToString = b => b !== false ? 'true' :'false';
