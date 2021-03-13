@@ -17,4 +17,7 @@ Input: ["sheep", "sheep", "wolf"]
 Output: "Pls go away and stop eating my sheep"
  */
 
- 
+const warnTheSheep = queue => {
+    let a = queue.reverse().indexOf('wolf');
+    return a === 0 ? "Pls go away and stop eating my sheep" : "Oi! Sheep number " + a + "! You are about to be eaten by a wolf!";
+    }
