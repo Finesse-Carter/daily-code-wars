@@ -8,4 +8,4 @@ You need to write a function detect that will check if a string starts with Can 
 Let's hope you don't write a solution that makes people ask that question at you!
  */
 
- 
+const detect = comment => comment.startsWith('Can someone explain')
