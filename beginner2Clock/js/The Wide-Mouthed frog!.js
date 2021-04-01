@@ -8,4 +8,4 @@ Your goal in this kata is to create complete the mouth_size method this method t
 
  */
 
-const mouthSize = animal => animal === 'alligator' ? "small" : 'wide';
+const mouthSize = animal => animal.toLowerCase() === 'alligator' ? "small" : 'wide';
