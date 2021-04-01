@@ -13,3 +13,11 @@ Then return the difference between the sum of the digits in total1 and total2:
 - (6 + 5 + 6 + 6 + 6 + 1)
 -------------------------
                        6 */
+                       
+                       const calc = (x) => {
+                        let a = x.split('').map(y=>y.charCodeAt(0)).join('')
+                        let d = a.split('').reduce((i,j)=>Number(i)+Number(j))
+                        let e = a.replace(/7/g,'1')
+                        let f = e.split('').reduce((i,j)=>Number(i)+Number(j))
+                        return d-f;
+                        }
