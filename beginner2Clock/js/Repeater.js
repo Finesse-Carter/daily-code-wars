@@ -6,3 +6,4 @@ should return
 
 "aaaaa" */
 
+const repeater = (string, n) => string.repeat(n)
