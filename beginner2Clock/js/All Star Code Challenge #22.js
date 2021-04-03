@@ -16,3 +16,4 @@ For example:
 3500 --> "0 hour(s) and 58 minute(s)"
 23500 --> "89 hour(s) and 51 minute(s)" */
 
+const toTime = (s) => `${Math.floor(s / 3600)} hour(s) and ${Math.floor(s % 3600 / 60)} minute(s)`;
