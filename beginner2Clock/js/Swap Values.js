@@ -2,3 +2,4 @@
 
 Can you figure out what's wrong here? */
 
+const swapValues = arr => arr.reverse()
