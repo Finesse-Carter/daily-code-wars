@@ -8,3 +8,4 @@ Output
 You must output a string containing the two strings with the word ```' are '```
 Reference: */
 
+const TempleStrings = (obj, feature) => `${obj} are ${feature}`
