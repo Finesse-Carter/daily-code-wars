@@ -18,6 +18,5 @@ const first = (arr, n) =>{
       return arr.slice(0,n)
     }else {
     return arr.slice(0,1)  
-    }
   }
-  
+}
