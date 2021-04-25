@@ -3,3 +3,8 @@
 Complete the method which accepts such an array, and returns that single different number.
 
 The input array will always be valid! (odd-length >= 3) */
+
+const stray = (numbers) => {
+    const [a, b] = [...new Set(numbers)];
+    return numbers.indexOf(a) === numbers.lastIndexOf(a) ? a : b;
+  };
