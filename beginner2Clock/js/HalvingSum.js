@@ -7,10 +7,10 @@ Example
 25  =>  25 + 12 + 6 + 3 + 1 = 47 */
 
 function halvingSum(n) {
-    let score=0;
-    while (n>=1){
-    score+=n;
-    n=Math.floor((n*1)/2);
-    }
-    return score
+  let score = 0;
+  while (n >= 1) {
+    score += n;
+    n = Math.floor((n * 1) / 2);
+  }
+  return score;
 }
