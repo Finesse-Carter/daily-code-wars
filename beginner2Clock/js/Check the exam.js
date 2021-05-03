@@ -6,7 +6,7 @@ If the score < 0, return 0.
 
 For example: */
 
-function checkExam(array1, array2) {
+const checkExam = (array1, array2) => {
   let points = 0;
 
   array2.map((x, y) => {
@@ -20,4 +20,4 @@ function checkExam(array1, array2) {
   });
 
   return points > 0 ? points : 0;
-}
+};
