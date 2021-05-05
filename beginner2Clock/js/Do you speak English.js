@@ -5,3 +5,5 @@ The order of characters is important -- a string "abcEnglishdef" is correct but 
 Upper or lower case letter does not matter -- "eNglisH" is also correct.
 
 Return value as boolean values, true for the string to contains "English", false for it */
+
+const spEng = sentence => sentence.toLowerCase().indexOf("english") ===-1 ? false : true
