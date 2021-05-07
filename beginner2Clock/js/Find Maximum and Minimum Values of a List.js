@@ -8,11 +8,11 @@ max([5]) returns 5
 min([42, 54, 65, 87, 0]) returns 0 */
 
 const min = (list) => {
-    let a = list.sort((b,c)=>b-c)
-    return a[0];
-}
+  let a = list.sort((b, c) => b - c);
+  return a[0];
+};
 
 const max = (list) => {
-    let a = list.sort((b,c)=>c-b)
-    return a[0];
-}
+  let a = list.sort((b, c) => c - b);
+  return a[0];
+};
