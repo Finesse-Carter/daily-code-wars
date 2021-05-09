@@ -7,3 +7,4 @@ Strings a and b may be empty, but not null (In C# strings may also be null. Trea
 If a and b have the same length treat a as the longer producing b+reverse(a)+b
 
 */
+const shorter_reverse_longer = (a,b) => a.length < b.length ? a+b.split('').reverse().join('')+a : b+a.split('').reverse().join('')+b
