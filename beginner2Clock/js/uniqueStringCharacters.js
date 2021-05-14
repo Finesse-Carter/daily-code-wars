@@ -11,19 +11,19 @@ More examples in the tests cases.
 
 Good luck! */
 
-function solve(a,b){
-    let aArr = a.split('')
-    let bArr = b.split('')
-    let answer = ''
-    for(let i = 0; i < aArr.length; i++){
-      if(!bArr.includes(aArr[i])){
-        answer += aArr[i]
-      }
+function solve(a, b) {
+  let aArr = a.split("");
+  let bArr = b.split("");
+  let answer = "";
+  for (let i = 0; i < aArr.length; i++) {
+    if (!bArr.includes(aArr[i])) {
+      answer += aArr[i];
     }
-    for(let j = 0; j < bArr.length; j++){
-      if(!aArr.includes(bArr[j])){
-        answer += bArr[j]
-      }
+  }
+  for (let j = 0; j < bArr.length; j++) {
+    if (!aArr.includes(bArr[j])) {
+      answer += bArr[j];
     }
-    return answer
-    };
+  }
+  return answer;
+}
